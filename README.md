@@ -10,6 +10,7 @@ Create Window:
 local window = library:AddWindow("Name GUI", {
 	main_color = Color3.fromRGB(41, 74, 122), -- Color
 	min_size = Vector2.new(250, 346), -- Size of the gui
+        toggle_key = Enum.KeyCode.RightShift,
 	can_resize = false, -- true or false
 })
 ```
